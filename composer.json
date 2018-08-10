@@ -1,0 +1,15 @@
+{
+    "name": "submtd/class-errors",
+    "description": "Adds HasErrors trait to classes. Simple error management",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Submtd\\ClassErrors\\": "src/"
+        }
+    }
+}
