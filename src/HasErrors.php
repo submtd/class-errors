@@ -33,7 +33,12 @@ trait HasErrors
         return (bool) $this->errors;
     }
 
-    private function addError($message, $code = 0)
+    public function clearErrors()
+    {
+        $this->errors = [];
+    }
+
+    protected function addError($message, $code = 0)
     {
         $this->errors[] = [
             'message' => $message,
